@@ -1,0 +1,21 @@
+name,description,job_level,category,duration_minutes,remote_testing,adaptive
+Verify Numerical Reasoning,Measures ability to interpret numerical data and make decisions based on numbers,Graduate/Professional,Cognitive,18,Yes,Yes
+Verify Verbal Reasoning,Measures ability to evaluate written information and draw conclusions,Graduate/Professional,Cognitive,17,Yes,Yes
+Verify Inductive Reasoning,Measures ability to identify patterns and think abstractly,Graduate/Professional,Cognitive,25,Yes,Yes
+Occupational Personality Questionnaire (OPQ),Measures 32 personality characteristics relevant to workplace behavior,All Levels,Personality,25,Yes,No
+Motivation Questionnaire (MQ),Assesses what conditions increase or decrease motivation at work,All Levels,Personality,25,Yes,No
+Coding Pro,Assesses programming skills across multiple languages including Python Java C++,Developer/Engineer,Technical,60,Yes,No
+Automata Fix,Tests ability to debug and fix code in various programming languages,Developer/Engineer,Technical,60,Yes,No
+Automata,Tests ability to write code from scratch to solve programming problems,Developer/Engineer,Technical,60,Yes,No
+SQL Test,Assesses ability to write and optimize SQL queries for database management,Developer/Engineer,Technical,30,Yes,No
+Verify Mechanical Comprehension,Measures understanding of mechanical and physical concepts,Operational/Technical,Cognitive,25,Yes,No
+Customer Service Simulation,Simulates real customer service scenarios to assess service skills,Frontline,Situational,20,Yes,No
+Sales Simulation,Assesses sales skills through realistic workplace scenarios,Sales,Situational,25,Yes,No
+Management Simulation,Evaluates management and leadership decision making,Manager/Director,Situational,35,Yes,No
+Verbal Communication Skills,Assesses spoken and written communication abilities,All Levels,Skills,20,Yes,No
+Numerical Calculation,Tests basic numerical calculation and arithmetic skills,Operational,Cognitive,10,Yes,No
+Deductive Reasoning,Measures ability to draw logical conclusions from given information,Graduate/Professional,Cognitive,20,Yes,Yes
+Verify Checking,Assesses speed and accuracy in checking and comparing information,Clerical/Admin,Cognitive,10,Yes,No
+Administrative Professional,Comprehensive assessment for administrative roles including typing and accuracy,Clerical/Admin,Skills,40,Yes,No
+Call Center Simulation,Realistic simulation of call center customer interactions,Frontline,Situational,25,Yes,No
+Technology Professional,Assesses broad technology skills for IT professionals,IT Professional,Technical,45,Yes,No
