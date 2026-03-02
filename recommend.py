@@ -1,5 +1,6 @@
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
+import torch
 
 df = pd.read_csv("shl_data.csv")
 
@@ -11,7 +12,7 @@ corpus_embeddings = model.encode(df["combined"].tolist(), convert_to_tensor=True
 def recommend(query: str, top_k: int = 5):
     query_embedding = model.encode(query, convert_to_tensor=True)
     scores = util.cos_sim(query_embedding, corpus_embeddings)[0]
-    top_results = scores.topk(k=top_k)
+    top_results = scores.topk(k=min(top_k, len(df)))
 
     results = []
     for score, idx in zip(top_results.values, top_results.indices):
